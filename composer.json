@@ -1,0 +1,22 @@
+{
+    "name": "izzle/support",
+    "description": "Extracted Laravel Str Support Package",
+    "keywords": ["str", "string", "string support", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Böhmer",
+            "email": "daniel@izzle.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Izzle\\Support\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "ext-mbstring": "*",
+        "doctrine/inflector": "^1.1"
+    }
+}
