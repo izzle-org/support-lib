@@ -17,6 +17,6 @@
     "require": {
         "php": ">=7.0",
         "ext-mbstring": "*",
-        "doctrine/inflector": "^1.1"
+        "doctrine/inflector": "^2.0.3"
     }
 }
