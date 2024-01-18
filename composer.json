@@ -17,6 +17,10 @@
     "require": {
         "php": "^7.4|^8.0",
         "ext-mbstring": "*",
-        "doctrine/inflector": "^1.1"
+        "doctrine/inflector": "^2.0.3"
+    },
+    "require-dev": {
+        "php": ">=7.4",
+        "phpunit/phpunit": "^9.5"
     }
 }
